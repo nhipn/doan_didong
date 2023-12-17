@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         mainLayoutBinding.btnFN5.findViewById(R.id.btnFN5);
 
         //nhi
-        //nhi
+        //nhi 2
         //nhi
     }
 
