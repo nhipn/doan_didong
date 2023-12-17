@@ -28,6 +28,10 @@ public class MainActivity extends AppCompatActivity {
         mainLayoutBinding.btnFN3.findViewById(R.id.btnFN3);
         mainLayoutBinding.btnFN4.findViewById(R.id.btnFN4);
         mainLayoutBinding.btnFN5.findViewById(R.id.btnFN5);
+
+        //nhi
+        //nhi
+        //nhi
     }
 
     @Override
