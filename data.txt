@@ -1,0 +1,9 @@
+//1. FolderDAO
+getWordById(int id): SELECT * FROM words WHERE :id
+getFavourites(): SELECT * FROM favourites
+//2. WordDAO
+getWordById(int id): SELECT * FROM words WHERE :id
+getWordByKey(String key): SELECT * FROM words WHERE word LIKE '%毎%' OR meaning LIKE '%every morning%' OR furigana LIKE '%まいあさ%' OR romaji LIKE '%maiasa%'; //tự chỉnh sửa trong code
+getWordsByLevel(int level): SELECT * FROM words WHERE level
+getIdByKey(String key): SELECT id FROM words WHERE word LIKE '%毎%' OR meaning LIKE '%every%' OR furigana LIKE '%%' OR romaji LIKE '%%' 
+// '%your name column%'
